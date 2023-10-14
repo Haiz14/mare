@@ -1,0 +1,14 @@
+CR: Create Read
+0.1: CR application
+  - ✅  create project
+  - ✅ return project location
+  - ✅ cueck if project exists before creating
+
+0.2: Branch logs CR
+  - get git branch name, git roject name
+  - project and git branch name must match
+  - create version file
+  - get version file
+  - get specific project version file
+
+0.3: Publish cli
