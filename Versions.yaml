@@ -4,15 +4,38 @@ CR: Create Read
   - ✅ return project location
   - ✅ cueck if project exists before creating
   - ✅ make the cli
-  - make it installable
-    - move filew to module
-    - crewte setup.py
+  - ✅ make it installable
+    - 🟢 move filew to module
+    - 🟢 use poetry to create comfig
+    - 🟢 ilise poetry to piblish
 
 0.2: Branch logs CR
-  - get git branch name, git roject name
-  - project and git branch name must match
-  - create version file
-  - get version file
-  - get specific project version file
+  cmds:
+    branch create: create branch workflow file
+      - get current project name
+      - crewte branch file there
+    bramch delte: check if all commits are commitee and merged, then delete the Branch
+      - flagg --ignore-checks to delete igniring if commit is not committed
+    branch file: return path of branch workflow file 
+    - 
+timer: Crewte a tmux popup that alerts when time is over
+  - create
+    - check if tmux window is on
+    - create timer (needs googling)
+    - save timer start in ~/.local/state/mare/timer
+    - only one timer
+  - pop
+  - when
 
+project: 
+  - locate <version-name>
+      - default oroject locstion
+  - completed <version-name>
+  - create <version-name>: creates a workflow file and a branch im current repo
+    - get project name from repo name
+  - init: initialise the project
+  - delete <varwion-name>: -f to force
+  - 
+  
+sync: 
 0.3: Publish cli
