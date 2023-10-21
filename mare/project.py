@@ -3,7 +3,7 @@ from pathlib import Path
 
 import typer
 
-from errors import ProjectExists, ProjectNotFound
+from .errors import ProjectExists, ProjectNotFound
 
 MARE_DIR_LOACTION = Path.home().joinpath(".mare")
 

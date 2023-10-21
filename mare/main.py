@@ -2,12 +2,14 @@
 import typer
 from rich import print
 
-import project
+from .project import app as project
 
 app = typer.Typer()
-app.add_typer(project.app, name= "project")
+app.add_typer(project, name= "project")
 
+def main():
+    app()
 
 
 if __name__ == "__main__":
-    app()
+    main()
