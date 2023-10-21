@@ -3,6 +3,10 @@ CR: Create Read
   - ✅  create project
   - ✅ return project location
   - ✅ cueck if project exists before creating
+  - ✅ make the cli
+  - make it installable
+    - move filew to module
+    - crewte setup.py
 
 0.2: Branch logs CR
   - get git branch name, git roject name
